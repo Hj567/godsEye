@@ -1,0 +1,313 @@
+original_data = [
+    {
+        "ques": "Which of the following conditions is the LEAST likely to present with hypertension?",
+        "choices": ["Renal artery stenosis", "Cushing's syndrome", "Pheochromocytoma", "Hypothyroidism"],
+        "answer": "Hypothyroidism"
+    },
+    {
+        "ques": "What is the most common cause of secondary hypertension?",
+        "choices": ["Renal disease", "Primary hyperaldosteronism", "Cushing's syndrome", "Pheochromocytoma"],
+        "answer": "Renal disease"
+    },
+    {
+        "ques": "What is the most common form of thyroid cancer?",
+        "choices": ["Papillary thyroid cancer", "Follicular thyroid cancer", "Medullary thyroid cancer", "Anaplastic thyroid cancer"],
+        "answer": "Papillary thyroid cancer"
+    },
+    {
+        "ques": "Which type of hepatitis virus is most likely to cause chronic infection?",
+        "choices": ["Hepatitis A", "Hepatitis B", "Hepatitis C", "Hepatitis D"],
+        "answer": "Hepatitis C"
+    },
+    {
+        "ques": "Which of the following symptoms is most commonly associated with an acute exacerbation of congestive heart failure?",
+        "choices": ["Cough", "Edema", "Fatigue", "Dyspnea"],
+        "answer": "Dyspnea"
+    },
+    {
+        "ques": "Which of the following conditions most commonly presents with a murmur that is best heard at the left sternal border and radiates to the carotids?",
+        "choices": ["Aortic stenosis", "Aortic regurgitation", "Mitral stenosis", "Mitral regurgitation"],
+        "answer": "Aortic stenosis"
+    },
+    {
+        "ques": "A patient is suspected to have acute appendicitis. The physician performs a test that elicits RLQ pain when the patient's LLQ is palpated. This is known as what?",
+        "choices": ["Rovsing's sign", "Psoas sign", "Obturator sign", "McBurney's sign"],
+        "answer": "Rovsing's sign"
+    },
+    {
+        "ques": "Which of the following is the most common type of thyroid malignancy?",
+        "choices": ["Papillary carcinoma", "Follicular carcinoma", "Medullary carcinoma", "Anaplastic carcinoma"],
+        "answer": "Papillary carcinoma"
+    },
+    {
+        "ques": "Which of the following is the most common cause of small bowel obstruction in adults?",
+        "choices": ["Adhesions", "Hernias", "Malignancy", "Crohn's disease"],
+        "answer": "Adhesions"
+    },
+    {
+        "ques": "Which of the following is NOT a risk factor for the development of gallstones?",
+        "choices": ["Female gender", "Obesity", "Rapid weight loss", "High-fiber diet"],
+        "answer": "High-fiber diet"
+    },
+     {
+        "ques": "A woman in her late 40s comes with prolonged, heavy periods for six months. She has three children and does not want any more. Her BMI is 35. What is the most appropriate management?",
+        "choices": ["Oral contraceptive pills", "Levonorgestrel-releasing intrauterine system", "Endometrial ablation", "Hysterectomy"],
+        "answer": "Levonorgestrel-releasing intrauterine system"
+    },
+    {
+        "ques": "What is the most common cause of postpartum hemorrhage?",
+        "choices": ["Uterine atony", "Genital tract trauma", "Retained placental fragments", "Coagulopathy"],
+        "answer": "Uterine atony"
+    },
+    {
+        "ques": "What is the most likely cause of the physiological jaundice in the neonate?",
+        "choices": ["Blood group incompatibility", "Sepsis", "Hepatitis", "Increased bilirubin production and decreased hepatic clearance"],
+        "answer": "Increased bilirubin production and decreased hepatic clearance"
+    },
+    {
+        "ques": "Which of the following congenital heart defects results in cyanosis?",
+        "choices": ["Ventricular septal defect", "Atrial septal defect", "Tetralogy of Fallot", "Patent ductus arteriosus"],
+        "answer": "Tetralogy of Fallot"
+    },
+    {
+        "ques": "Psoriasis is a common skin disorder. The lesion usually appears as:",
+        "choices": ["Red, scaly plaques", "Large, fluid-filled blisters", "Round, hypopigmented patches", "Painless, hard, indurated ulcers"],
+        "answer": "Red, scaly plaques"
+    },
+    {
+        "ques": "Vitiligo is characterized by:",
+        "choices": ["Bronzing of the skin", "Scaly, pruritic eruption", "Widespread purpura", "Depigmented patches"],
+        "answer": "Depigmented patches"
+    },
+    {
+        "ques": "Which of the following imaging studies uses ionizing radiation?",
+        "choices": ["Ultrasound", "Magnetic resonance imaging (MRI)", "Computed tomography (CT)", "Magnetic resonance angiography (MRA)"],
+        "answer": "Computed tomography (CT)"
+    },
+    {
+        "ques": "A patient presents with signs of a depression. The best initial approach to management is:",
+        "choices": ["Psychotherapy alone", "Antidepressant medication alone", "Psychotherapy combined with antidepressant medication", "Electroconvulsive therapy"],
+        "answer": "Psychotherapy combined with antidepressant medication"
+    },
+    {
+        "ques": "In terms of fracture repair, callus formation is part of which stage?",
+        "choices": ["Inflammatory", "Reparative", "Remodeling", "Healing"],
+        "answer": "Reparative"
+    },
+    {
+        "ques": "A patient is receiving a drug that blocks muscarinic-2 receptors as a pre-medication before surgery. The drug is most likely:",
+        "choices": ["Midazolam", "Atropine", "Fentanyl", "Rocuronium"],
+        "answer": "Atropine"
+    },
+
+        {
+        "ques": "A 30-year-old woman comes with complaints of a lump in her breast. On examination, a movable lump is found. The patient is anxious. The next step in management should be:",
+        "choices": ["Reassurance", "Mammography", "Fine-needle aspiration cytology (FNAC)", "Core needle biopsy"],
+        "answer": "Fine-needle aspiration cytology (FNAC)"
+    },
+    {
+        "ques": "What is the most common cause of a rectovaginal fistula?",
+        "choices": ["Obstetric trauma", "Crohn's disease", "Diverticulitis", "Cancer"],
+        "answer": "Obstetric trauma"
+    },
+    {
+        "ques": "A newborn does not pass meconium within the first 48 hours after birth. The most likely diagnosis is:",
+        "choices": ["Hirschsprung disease", "Meconium plug syndrome", "Cystic fibrosis", "Necrotizing enterocolitis"],
+        "answer": "Hirschsprung disease"
+    },
+    {
+        "ques": "A neonate presents with non-bilious vomiting after every feed. A palpable olive-like mass is felt in the abdomen. The most likely diagnosis is:",
+        "choices": ["Pyloric stenosis", "Gastroesophageal reflux disease", "Duodenal atresia", "Intussusception"],
+        "answer": "Pyloric stenosis"
+    },
+    {
+        "ques": "Alopecia areata is:",
+        "choices": ["Fungal infection", "Autoimmune disease", "Hormonal imbalance", "Physical trauma"],
+        "answer": "Autoimmune disease"
+    },
+    {
+        "ques": "Which of the following is the most common type of skin cancer?",
+        "choices": ["Basal cell carcinoma", "Squamous cell carcinoma", "Melanoma", "Merkel cell carcinoma"],
+        "answer": "Basal cell carcinoma"
+    },
+    {
+        "ques": "A patient presents with a rash that appears as 'herald patch' followed by a 'Christmas tree' pattern. The most likely diagnosis is:",
+        "choices": ["Psoriasis", "Tinea corporis", "Pityriasis rosea", "Lichen planus"],
+        "answer": "Pityriasis rosea"
+    },
+    {
+        "ques": "A patient presents with itching, redness, and inflammation of the skin in the folds of the elbows and behind the knees. The most likely diagnosis is:",
+        "choices": ["Psoriasis", "Atopic dermatitis (Eczema)", "Contact dermatitis", "Impetigo"],
+        "answer": "Atopic dermatitis (Eczema)"
+    },
+    {
+        "ques": "A patient with known schizophrenia starts to believe that their thoughts are being broadcasted out loud for everyone to hear. This type of thinking is an example of:",
+        "choices": ["Hallucination", "Thought broadcasting", "Thought insertion", "Thought withdrawal"],
+        "answer": "Thought broadcasting"
+    },
+    {
+        "ques": "Which of the following is the most common joint affected in osteoarthritis?",
+        "choices": ["Hip joint", "Knee joint", "Shoulder joint", "Ankle joint"],
+        "answer": "Knee joint"
+    },
+    {
+        "ques": "Which of the following is a common side effect of propofol, an anesthetic agent?",
+        "choices": ["Hypertension", "Bradycardia", "Hypotension", "Tachycardia"],
+        "answer": "Hypotension"
+    },
+    {
+        "ques": "Which one of the following conditions is the most common cause of left-sided heart failure?",
+        "choices": ["Hypertension", "Aortic valve stenosis", "Mitral valve prolapse", "Coarctation of the aorta"],
+        "answer": "Hypertension"
+    },
+    {
+        "ques": "Which of the following is the most commonly used surgical procedure for the treatment of peptic ulcer disease?",
+        "choices": ["Vagotomy and pyloroplasty", "Billroth I procedure", "Billroth II procedure", "Roux-en-Y gastric bypass"],
+        "answer": "Vagotomy and pyloroplasty"
+    },
+    {
+        "ques": "A young woman presents with amenorrhea, hirsutism, and obesity. The likely diagnosis is:",
+        "choices": ["Polycystic ovary syndrome", "Cushing's syndrome", "Premature ovarian failure", "Hyperprolactinemia"],
+        "answer": "Polycystic ovary syndrome"
+    },
+    {
+        "ques": "A newborn presents with cyanosis and a heart murmur. Echocardiography reveals transposition of the great arteries. The best initial treatment is:",
+        "choices": ["Balloon atrial septostomy", "Immediate surgical correction", "Prostaglandin E1 to maintain ductus arteriosus", "Digoxin"],
+        "answer": "Prostaglandin E1 to maintain ductus arteriosus"
+    },
+    {
+        "ques": "An infant is not gaining weight adequately. He has recurrent respiratory infections. Sweat chloride test is positive. The likely diagnosis is:",
+        "choices": ["Cystic fibrosis", "Bronchiolitis", "Asthma", "Primary ciliary dyskinesia"],
+        "answer": "Cystic fibrosis"
+    },
+    {
+        "ques": "What is the best initial treatment for psoriasis?",
+        "choices": ["Topical corticosteroids", "Systemic corticosteroids", "Oral retinoids", "Methotrexate"],
+        "answer": "Topical corticosteroids"
+    },
+    {
+        "ques": "What is the first-line treatment for rosacea?",
+        "choices": ["Topical metronidazole", "Oral isotretinoin", "Topical corticosteroids", "Oral antibiotics"],
+        "answer": "Topical metronidazole"
+    },
+    {
+        "ques": "Which of the following is the most common type of primary bone cancer?",
+        "choices": ["Osteosarcoma", "Chondrosarcoma", "Ewing's sarcoma", "Multiple myeloma"],
+        "answer": "Osteosarcoma"
+    },
+    {
+        "ques": "Which of the following antipsychotics is most likely to cause extrapyramidal side effects?",
+        "choices": ["Clozapine", "Risperidone", "Quetiapine", "Haloperidol"],
+        "answer": "Haloperidol"
+    },
+    {
+        "ques": "Which of the following is a side effect of etomidate, an anesthetic agent?",
+        "choices": ["Nausea and vomiting", "Bradycardia", "Hypotension", "Adrenal suppression"],
+        "answer": "Adrenal suppression"
+    },
+    {
+        "ques": "Which of the following is a common cause of secondary hypertension?",
+        "choices": ["Primary aldosteronism", "Essential hypertension", "White coat hypertension", "Stress"],
+        "answer": "Primary aldosteronism"
+    },
+    {
+        "ques": "In a patient with appendicitis, what is the typical sequence of symptoms?",
+        "choices": ["Periumbilical pain followed by nausea, vomiting, and right lower quadrant pain", "Nausea and vomiting followed by periumbilical pain and right lower quadrant pain", "Right lower quadrant pain followed by periumbilical pain, nausea, and vomiting", "Periumbilical pain and right lower quadrant pain simultaneously, followed by nausea and vomiting"],
+        "answer": "Periumbilical pain followed by nausea, vomiting, and right lower quadrant pain"
+    },
+    {
+        "ques": "Which of the following is a common cause of infertility in women with polycystic ovary syndrome (PCOS)?",
+        "choices": ["Anovulation", "Uterine fibroids", "Endometriosis", "Pelvic inflammatory disease"],
+        "answer": "Anovulation"
+    },
+    {
+        "ques": "Which is the most common cause of congenital adrenal hyperplasia?",
+        "choices": ["21-hydroxylase deficiency", "11β-hydroxylase deficiency", "17α-hydroxylase deficiency", "3β-hydroxysteroid dehydrogenase deficiency"],
+        "answer": "21-hydroxylase deficiency"
+    },
+    {
+        "ques": "What is the most common cause of bacterial meningitis in newborns?",
+        "choices": ["Streptococcus pneumoniae", "Neisseria meningitidis", "Group B Streptococcus", "Listeria monocytogenes"],
+        "answer": "Group B Streptococcus"
+    },
+    {
+        "ques": "Which condition is characterized by a 'sandpaper' rash and a 'strawberry' tongue?",
+        "choices": ["Scarlet fever", "Measles", "Rubella", "Hand, foot, and mouth disease"],
+        "answer": "Scarlet fever"
+    },
+    {
+        "ques": "In dermatology, the term 'koebnerization' is associated with which skin condition?",
+        "choices": ["Psoriasis", "Atopic dermatitis", "Pityriasis rosea", "Seborrheic dermatitis"],
+        "answer": "Psoriasis"
+    },
+    {
+        "ques": "What is the first-line imaging study for suspected acute appendicitis?",
+        "choices": ["Abdominal x-ray", "Abdominal CT scan", "Ultrasound", "MRI"],
+        "answer": "Abdominal CT scan"
+    },
+    {
+        "ques": "Which of the following is a common side effect of clozapine, an atypical antipsychotic?",
+        "choices": ["Agranulocytosis", "Extrapyramidal symptoms", "Tardive dyskinesia", "Neuroleptic malignant syndrome"],
+        "answer": "Agranulocytosis"
+    },
+    {
+        "ques": "Which of the following medications is most likely to cause hyperkalemia when used in the perioperative period?",
+        "choices": ["Succinylcholine", "Propofol", "Fentanyl", "Midazolam"],
+        "answer": "Succinylcholine"
+    },
+     {
+        "ques": "The initial drug of choice for hypertension management in a young, non-black patient without any comorbidities is?",
+        "choices": ["Beta-blocker", "ACE inhibitor", "Diuretic", "Calcium channel blocker"],
+        "answer": "ACE inhibitor"
+    },
+    {
+        "ques": "What is the most common cause of community-acquired pneumonia?",
+        "choices": ["Haemophilus influenzae", "Streptococcus pneumoniae", "Staphylococcus aureus", "Klebsiella pneumoniae"],
+        "answer": "Streptococcus pneumoniae"
+    },
+    {
+        "ques": "What is the most common cause of secondary hypertension?",
+        "choices": ["Renal artery stenosis", "Pheochromocytoma", "Primary hyperaldosteronism", "Cushing syndrome"],
+        "answer": "Renal artery stenosis"
+    },
+    {
+        "ques": "The most common presenting symptom of a patient with a pulmonary embolism is:",
+        "choices": ["Chest pain", "Dyspnea", "Hemoptysis", "Syncope"],
+        "answer": "Dyspnea"
+    },
+    {
+        "ques": "What is the most common cause of end-stage renal disease in the United States?",
+        "choices": ["Hypertension", "Diabetes", "Polycystic kidney disease", "Glomerulonephritis"],
+        "answer": "Diabetes"
+    },
+    {
+        "ques": "A patient with a history of Type II diabetes presents with a blood glucose level of 600 mg/dL and a normal anion gap. Which of the following is the most likely diagnosis?",
+        "choices": ["Diabetic ketoacidosis", "Hyperosmolar hyperglycemic state", "Hypoglycemia", "Lactic acidosis"],
+        "answer": "Hyperosmolar hyperglycemic state"
+    },
+    {
+        "ques": "A patient presents with recent-onset atrial fibrillation. Which of the following is the most appropriate initial treatment strategy?",
+        "choices": ["Cardioversion", "Rate control and anticoagulation", "Rhythm control and anticoagulation", "Observation"],
+        "answer": "Rate control and anticoagulation"
+    },
+    {
+        "ques": "Which is the most common cause of chronic liver disease in the United States?",
+        "choices": ["Alcoholic liver disease", "Hepatitis B", "Hepatitis C", "Non-alcoholic fatty liver disease"],
+        "answer": "Non-alcoholic fatty liver disease"
+    },
+    {
+        "ques": "A 70-year-old man presents with anemia, hypercalcemia, and renal dysfunction. The most likely diagnosis is:",
+        "choices": ["Acute lymphoblastic leukemia", "Multiple myeloma", "Chronic lymphocytic leukemia", "Hodgkin's lymphoma"],
+        "answer": "Multiple myeloma"
+    },
+    {
+        "ques": "The first-line therapy for acute pericarditis is:",
+        "choices": ["Colchicine", "NSAIDs", "Steroids", "Antibiotics"],
+        "answer": "NSAIDs"
+    },
+    {
+        "ques": "What is the most common cause of septic shock?",
+        "choices": ["Escherichia coli", "Pseudomonas aeruginosa", "Staphylococcus aureus", "Streptococcus pneumoniae"],
+        "answer": "Escherichia coli"
+    },
+]
